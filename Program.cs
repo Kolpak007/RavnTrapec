@@ -61,6 +61,6 @@ class Program
 
         Console.WriteLine($"Равнобочных трапеций: {valid.Count}");
         Console.WriteLine($"Средняя площадь: {avgArea}");
-        Console.WriteLine($"С площадью выше средней: {avgArea}");
+        Console.WriteLine($"С площадью выше средней: {avgArea}"); // В "средней площади" добавить F2 для более удобного отображения, в "с площадью высшей средней" исправить на countAboveAvg
     }
 }
