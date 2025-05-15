@@ -5,7 +5,7 @@ using System.Linq;
 class Point
 {
     public double X, Y;
-    public Point(double x, double y) { X = x; Y = Y; }
+    public Point(double x, double y) { X = x; Y = Y; } // Во втором случае исправить "Y" на "y"
 
     public static double Distance(Point p1, Point p2) =>
         Math.Sqrt(Math.Pow(p1.X - p2.X, 2) + Math.Pow(p1.Y - p2.Y, 2));
