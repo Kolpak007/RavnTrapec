@@ -39,7 +39,7 @@ class IsoscelesTrapezoid
     {
         double base1 = Point.Distance(A, B);
         double base2 = Point.Distance(C, D);
-        double height = Math.Abs(A.Y - A.Y); // допущение: основания горизонтальны
+        double height = Math.Abs(A.Y - A.Y); // "A" во втором случае исправить на "D"
         return 0.5 * (base1 + base2) * height;
     }
 }
