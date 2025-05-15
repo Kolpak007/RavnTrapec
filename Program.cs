@@ -5,7 +5,7 @@ using System.Linq;
 class Point
 {
     public double X, Y;
-    public Point(double x, double y) { X = x; Y = Y; } 
+    public Point(double x, double y) { X = x; Y = Y; } // Во втором случае исправить "Y" на "y"
 
     public static double Distance(Point p1, Point p2) =>
         Math.Sqrt(Math.Pow(p1.X - p2.X, 2) + Math.Pow(p1.Y - p2.Y, 2));
@@ -61,6 +61,6 @@ class Program
 
         Console.WriteLine($"Равнобочных трапеций: {valid.Count}");
         Console.WriteLine($"Средняя площадь: {avgArea}");
-        Console.WriteLine($"С площадью выше средней: {avgArea}");
+        Console.WriteLine($"С площадью выше средней: {avgArea}"); // В "средней площади" добавить F2 для более удобного отображения, в "с площадью высшей средней" исправить на countAboveAvg
     }
 }
